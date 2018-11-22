@@ -1,0 +1,68 @@
+.col-md-6{
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.form_login{
+  width: 500px;
+  height:400px;
+}
+
+Html,body{
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.grandcontainer{
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, .5)
+}
+
+.grandcontainer h2{
+  color: #efed40;
+  text-align: center;
+}
+
+.grandcontainer label{
+  color:#fff;
+  font-size: 20px;
+}
+
+.grandcontainer small{
+  color:#fff;
+}
+
+.grandcontainer input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.grandcontainer input[type="email"],.grandcontainer input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+::placeholder{
+  color:rgba(255,255,255,.5);
+}
+
+.grandcontainer button[type="submit"]{
+  border:none;
+  outline: none;
+  height:40px;
+  width:100px;
+  color:#fff;
+  font-size: 16px;
+  border-radius: 20px;
+}
